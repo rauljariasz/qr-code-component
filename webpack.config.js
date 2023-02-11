@@ -55,7 +55,7 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'QR Code Component',
-      templateContent: ({ htmlWebpackPlugin }) => '<!DOCTYPE html><html lang="en"><head><meta charset=\"utf-8\"><title>' + htmlWebpackPlugin.options.title + '</title></head><body><div id=\"app\"></div></body></html>',
+      templateContent: ({ htmlWebpackPlugin }) => '<!DOCTYPE html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta charset=\"utf-8\"><title>' + htmlWebpackPlugin.options.title + '</title></head><body><div id=\"app\"></div></body></html>',
       filename: 'index.html',
       favicon: './src/assets/favicon-32x32.png'
     }),
