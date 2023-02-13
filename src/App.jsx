@@ -4,9 +4,9 @@ import "./styles.css";
 
 const App = () => {
   return (
-    <div className="main">
+    <main className="main">
       <div className="flex">
-        <div className="cardContainer">
+        <section className="cardContainer">
           <img src={QR} alt="" />
           <div className="textContainer">
             <p className="textBold">
@@ -16,9 +16,9 @@ const App = () => {
               Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
             </p>
           </div>
-        </div>
+        </section>
       </div>
-    </div>
+    </main>
   );
 };
 
