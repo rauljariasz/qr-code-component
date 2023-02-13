@@ -44,7 +44,6 @@ body {
 }
 .textBold {
   font-size: 18px;
-  font-weight: 700;
   color: var(--text-color2);
   text-align: center;
 }
