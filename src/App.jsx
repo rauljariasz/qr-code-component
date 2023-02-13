@@ -9,9 +9,9 @@ const App = () => {
         <section className="cardContainer">
           <img src={QR} alt="" />
           <div className="textContainer">
-            <p className="textBold">
+            <h1 className="textBold">
               Improve your front-end skills by building projects
-            </p>
+            </h1>
             <p className="text">
               Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
             </p>
