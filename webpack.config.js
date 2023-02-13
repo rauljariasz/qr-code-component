@@ -55,9 +55,9 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'QR Code Component',
-      template: './public/index.html'
+      template: './public/index.html',
       filename: 'index.html',
-      favicon: './src/assets/favicon-32x32.png'
+      favicon: './src/assets/favicon-32x32.png',
     }),
     new MiniCssExtractPlugin()
   ]
